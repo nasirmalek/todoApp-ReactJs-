@@ -3,6 +3,7 @@ import {TodoProvider} from './contexts'
 import './App.css'
 import TodoForm from './components/TodoForm'
 import TodoItem from './components/TodoItem'
+import AdsterraAd from './components/AdsterraAd'
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -64,8 +65,10 @@ function App() {
                         ))}
                     </div>
                 </div>
+        <AdsterraAd />
             </div>
     </TodoProvider>
+    
   )
 }
 
