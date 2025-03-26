@@ -65,6 +65,8 @@ function App() {
                           </div>
                         ))}
                     </div>
+                      <AdsterraAd />
+
                 </div>
         
             </div>
